@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang ="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Today's Feeling</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  
+  <body>
+    <div class="container-fluid">
+      <div class="container">
+        <h1 class="display-1">Today's Feeling?</h1>
+        <h2 class="text-muted">Please click today's feeling <i class="fa fa-hand-o-down" style="font-size:36px"></i></h2>
+<!-- HTML that relates to Faces -->  
+        <div class="row">
+          <div class="col"><button class="btn" value="count1" id="btn_count1"><p onclick ="crying_face()" style='font-size:100px;'>&#128546;</p></button></div>
+          <div class="col"><button class="btn" value="count2" id="btn_count2"><p style='font-size:100px;'>&#128534;</p></button></div>
+          <div class="col"><button class="btn" value="count3" id="btn_count3"><p style='font-size:100px;'>&#128528;</p></button></div>
+          <div class="col"><button class="btn" value="count4" id="btn_count4"><p style='font-size:100px;'>&#128524;</p></button></div>
+          <div class="col"><button class="btn" value="count5" id="btn_count5"><p style='font-size:100px;'>&#128518;</p></button></div>
+        </div>
+        
+        <div class="row">
+          <div class="col" id="face_count1" style='font-size:100px;'>0</div>
+          <div class="col" id="face_count2" style='font-size:100px;'>0</div>
+          <div class="col" id="face_count3" style='font-size:100px;'>0</div>
+          <div class="col" id="face_count4" style='font-size:100px;'>0</div>
+          <div class="col" id="face_count5" style='font-size:100px;'>0</div>
+        </div>
+        
+        <div class="col">
+          <input type="button" class="btn btn-danger btn-block" value="Reset" id="btn_reset"></input>
+        </div>
+       
+      </div>
+        
+      
+    </div>
+    <!-- This /div closes up the "container-fluid" class assignment from the very beginning -->
+    
+  </body>
+  <!-- This line closes up the body part -->
+</html>
